@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  stdout.write("What's your name? ");
+  print("What's your name? ");
   String name = stdin.readLineSync().toString();
 
   print("Hi, $name! What is your age?");
